@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`start game renders correctly 1`] = `
+<Modal
+  hardwareAccelerated={false}
+  onRequestClose={true}
+  visible={true}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#292929",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": undefined,
+            "elevation": 5,
+            "justifyContent": "center",
+            "margin": 20,
+            "padding": 20,
+          },
+          Object {
+            "height": 150,
+            "width": 300,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#545454",
+              "fontFamily": "Avenir",
+              "fontSize": 14,
+            },
+            Object {
+              "alignItems": "center",
+              "fontSize": 18,
+              "marginBottom": 15,
+            },
+          ]
+        }
+      >
+        Card Flip Game
+      </Text>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#545454",
+              "fontFamily": "Avenir",
+              "fontSize": 14,
+            },
+            undefined,
+          ]
+        }
+      >
+        Select Level
+      </Text>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-around",
+            "paddingTop": 10,
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0000FF",
+                "borderRadius": 4,
+                "marginTop": 10,
+                "paddingHorizontal": 10,
+                "paddingVertical": 5,
+                "width": 80,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#545454",
+                  "fontFamily": "Avenir",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Beginner
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0000FF",
+                "borderRadius": 4,
+                "marginTop": 10,
+                "paddingHorizontal": 10,
+                "paddingVertical": 5,
+                "width": 80,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#545454",
+                  "fontFamily": "Avenir",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Medium
+          </Text>
+        </View>
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#0000FF",
+                "borderRadius": 4,
+                "marginTop": 10,
+                "paddingHorizontal": 10,
+                "paddingVertical": 5,
+                "width": 80,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#545454",
+                  "fontFamily": "Avenir",
+                  "fontSize": 14,
+                },
+                Object {
+                  "color": "#FFFFFF",
+                },
+              ]
+            }
+          >
+            Hard
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</Modal>
+`;
